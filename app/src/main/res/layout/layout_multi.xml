@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/layoutMulti"
+    android:background="@drawable/background_multi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:behavior_peekHeight="50dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <TextView
+        android:id="@+id/text_multi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/ariel_hebrew"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="multi"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/noteColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_color1"/>
+
+            <ImageView
+                android:id="@+id/imageColor1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Humleporten"
+                android:padding="15dp"
+                android:src="@drawable/ic_icon_check"
+                app:tint="#FFFFFF" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_color2"/>
+            <ImageView
+                android:id="@+id/imageColor2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Humleporten"
+                android:padding="15dp"
+                android:tint="#FFFFFF"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/viewColor3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/background_color3"/>
+            <ImageView
+                android:id="@+id/imageColor3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Humleporten"
+                android:padding="15dp"
+                android:tint="#FFFFFF"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ariel_hebrew"
+            android:includeFontPadding="false"
+            android:text="Select Color"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/deleteNoteLayout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawbles">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:contentDescription="Hulmeporten"
+            android:src="@drawable/ic_delete"
+            android:tint="#00BCD4">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/ariel_hebrew"
+            android:includeFontPadding="false"
+            android:text="Delete Note"
+            android:textAllCaps="true"
+            android:textColor="#00BCD4"
+            android:textSize="15sp"
+            android:layout_marginLeft="12dp" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+<!-- SOURCE:
+https://developer.android.com/reference/android/widget/LinearLayout
+-->

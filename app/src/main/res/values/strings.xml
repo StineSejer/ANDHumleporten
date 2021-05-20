@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">Humleporten</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="multi">Multi</string>
+    <string name="delete_note">delete Note</string>
+    <string name="sure_you_want_to_delete_note">Sure you want to delete note</string>
+    <string name="Delete_note">Delete note</string>
+    <string name="cancel">cancel</string>
+    <string name="pick_color">Pick color</string>
+
+    <string-array name="week_days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="Beer_plan">
+        <item>Brew day</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string name="sign_in">Sign In</string>
+    <string name="login">Log In</string>
+    <string name="logo">logo</string>
+
+    <!--<string name="welcome">Welcome</string>
+    <string name="home_brewed_beer">Home-brewed beer</string>
+   <string name="about">About</string>
+    <string name="our_beer">Our Beer</string>
+    <string name="beer">Beer</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="brewing">Brewing</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="kontact">Kontact</string>
+    <string name="brewing">Brewing</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="not_a_user_click_here">Not a user, click here</string>
+    <string name="todo">TODO</string>
+    <string name="about">About</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="kontact">Kontact</string>
+    <string name="todo">TODO</string>
+    <string name="our_beer">Our Beer</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="registration">Registration</string>
+    <string name="full_name">Full Name</string>
+    <string name="already_a_user_login_here">Already a user? Login Here</string>
+    <string name="register">Register</string>
+    <string name="logo">logo</string> -->
+</resources>
+
+<!--SOURCE: Code from firebase.google.com-->

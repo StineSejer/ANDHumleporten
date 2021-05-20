@@ -1,0 +1,40 @@
+ {
+  "project_info": {
+    "project_number": "416265081789",
+    "firebase_url": "https://humleporten-7d172.firebaseio.com",
+    "project_id": "humleporten-7d172",
+    "storage_bucket": "humleporten-7d172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416265081789:android:9c884d480123c2d968b8d4",
+        "android_client_info": {
+          "package_name": "com.example.humleporten"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "416265081789-qrr0camvnq2he3ihecf86k3gcrcu07ts.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAp4f3fhqhwm4AnTw4QQMM-Ge2o7MO3FU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "416265081789-qrr0camvnq2he3ihecf86k3gcrcu07ts.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

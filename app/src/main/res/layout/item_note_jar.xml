@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutNote"
+    android:orientation="vertical"
+    android:layout_marginStart="0dp"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp">
+
+    <TextView
+        android:id="@+id/txTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/ariel_hebrew"
+        android:includeFontPadding="false"
+        android:textColor="#000000"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/txDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/ariel_hebrew"
+        android:includeFontPadding="false"
+        android:textColor="#000000"
+        android:textSize="7sp"/>
+
+
+</LinearLayout>

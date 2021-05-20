@@ -1,0 +1,32 @@
+{
+  "BrewSchedule": [
+    {
+      "title": "Monday",
+      "humleporten": "Germination, drying & roasting \n\n The first step in the brewing process is the malting, where the cleaned and sorted malting barley (or other suitable cereals) is converted into malt. \n"
+    },
+    {
+      "title": "Tuesday",
+      "humleporten": "Germination, drying & roasting \n\nThe first step in the production of malt is to make the barley germinate. This is done by soaking the barley kernels so that they begin to absorb water."
+    },
+    {
+      "title": "Wednesday",
+      "humleporten": "Germination, drying & roasting \n\n Germination boxes You stop germination by blowing hot air up between the barley kernels in a stick. The hot air causes the water to evaporate and the kernels dry. \n At the end of the drying, you can roast the malt at different temperatures."
+    },
+    {
+      "title": "Thursday",
+      "humleporten": "Mashing \n\n Mashing is the process by which the enzymes from the malt (which were formed when the barley kernels germinated) convert the malt's starch into malt sugar."
+    },
+    {
+      "title": "Friday",
+      "humleporten": "Herb separation \n\n When the mashing is complete, the mash (malt and water mass) must be sieved in a sicar or a mash filter."
+    },
+    {
+      "title": "Saturday",
+      "humleporten": "Boiling \n\n The next step in the brewing process is the boiling of the herb. The herb has a distinctive aroma that is sweet and bready."
+    },
+    {
+      "title": "Sunday",
+      "humleporten": "Fermentation \n\n When the herb has cooled down, yeast is added and the herb is transferred to the 'yeast cellar', which is the process section at the brewery where the fermentation takes place."
+    }
+  ]
+}

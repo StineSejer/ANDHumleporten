@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainScreen.BeerActivity">
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/tvBeer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/ariel_hebrew"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:text="Beer"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvBrewKind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBeer"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/ariel_hebrew"
+        android:gravity="center"
+        android:text="Chili Imperial Stout"
+        android:textColor="#000000"
+        android:textStyle="normal"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBeer" />
+
+    <TextView
+        android:id="@+id/tvBrewText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBrewKind"
+        android:layout_marginTop="96dp"
+
+
+        android:fontFamily="@font/ariel_hebrew"
+        android:text=" Stout was first used about a beer in 1677, referring to a strong beer (not dark). After Porter's introduction in 1721 and its great success, the breweries in London created a stronger dark beer with more weight, which they called Stout Porter's. Stout also means strong, powerful or dense, and many associate the word Stout beer with Guinness.\n \n Humle Gate's Chilies in Imperial Scout contain mixtures of different, typically of fairly mild Jalapenos, the very mild Jamaican Bell and Checovakian Black, the strong Habanerotypes such as Red savina and Scotch Bonnet as well as the very strong i.a. Bhut Jolokia chili as well as the special Danish-developed B.O.C. - all from own chili production."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBrewKind" />
+
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="@color/teal_700"
+        android:fitsSystemWindows="true"
+        app:itemBackground="@color/dark_grey"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:layout_constraintBottom_toBottomOf="@+id/tvBrewText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:menu="@menu/navigation_menu"
+        tools:ignore="MissingConstraints">
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+

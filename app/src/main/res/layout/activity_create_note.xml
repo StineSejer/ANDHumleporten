@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ROOMNoteCreating.CreateNoteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="78dp"
+        tools:layout_editor_absoluteY="-221dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animateLayoutChanges="true">
+
+            <ImageView
+                android:id="@+id/backIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:contentDescription="My Recipies and Techneques"
+                android:src="@drawable/ic_back"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="#000000" />
+
+            <ImageView
+                android:id="@+id/saveNote"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_save"
+                android:contentDescription="Humleporten"
+                android:padding="4dp"
+                app:layout_constraintBottom_toBottomOf="@id/backIcon"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/backIcon" />
+
+            <EditText
+                android:id="@+id/noteTitle"
+                android:layout_width="match_parent"
+                android:layout_height="40.00dp"
+                android:layout_marginTop="20.00dp"
+                android:background="@null"
+                android:fontFamily="@font/ariel_hebrew"
+                android:hint="Note Title"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="text"
+                android:textColor="#000000"
+                android:textColorHint="#607078"
+                android:textSize="20sp"
+                app:layout_constraintTop_toBottomOf="@id/backIcon"
+                tools:layout_editor_absoluteX="8dp" />
+
+            <TextView
+                android:id="@+id/textDateTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ariel_hebrew"
+                android:includeFontPadding="false"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="@id/noteTitle"
+                app:layout_constraintStart_toStartOf="@id/noteTitle"
+                app:layout_constraintTop_toBottomOf="@id/noteTitle"/>
+
+            <EditText
+                android:id="@+id/noteDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20sp"
+                android:background="@null"
+                android:fontFamily="@font/ariel_hebrew"
+                android:gravity="top"
+                android:hint="Note Desription"
+                android:importantForAutofill="no"
+                android:includeFontPadding="false"
+                android:inputType="textImeMultiLine"
+                android:minHeight="100dp"
+                android:textColorHint="#607078"
+                android:textSize="15dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textDateTime"
+                tools:layout_editor_absoluteX="15dp" />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/layout_multi" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+<!-- SOURCES:
+https://technobyte.org/create-notes-app-android-full-code-tutorial-simple-explanation/
+https://medium.com/swlh/simple-notes-app-in-android-java-9062d7bb3bc0 -->

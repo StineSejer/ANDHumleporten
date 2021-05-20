@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainScreen.BeerActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+   <TextView
+       android:id="@+id/day_beer"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp"
+       android:fontFamily="@font/ariel_hebrew"
+       android:gravity="center"
+       android:text="Beer"
+       android:textColor="#000000"
+       android:textSize="45sp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/movement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/day_beer"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/ariel_hebrew"
+        android:gravity="center"
+        android:text="Our Beer"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/day_beer"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movement"
+        android:layout_marginTop="98dp"
+        android:fontFamily="@font/ariel_hebrew"
+        android:text="We have in Humleporten a number of classics. Beer we especially love, beer we just like and beer we have given our own expression. So even though most of our beers have counterparts in the beer-periodic system (see HERE), the Danish beer tradition and history has created our interpretations of beer as special beers, and not as copies of others' traditions. \n\n
+        All our beers are tied up in Danish stories, Danish stories and Nordic herbs and trees. We grow the herbs ourselves or pick them in nature, and all our hops are grown in our own hop gardens. But after all, only Kvan is Nordic, the rest is sourced like hops. Same with our hops and herbs, but it's from our garden and houses. \n\n
+        As classics, we have 15 beers!"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.365"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/movement"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
