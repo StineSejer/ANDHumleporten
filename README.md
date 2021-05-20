@@ -2,23 +2,32 @@
 
 
 **Description of app**
+
 "Humpleporten" is an app for beerlovers. 
 From register and logging the user will be able to see from a schedule which day the specific brewing progress is. The user can create notes about the beer and access them. The user will be able play a video from YouTube about how to brew beer. The app is using the database "firebase" to store information about the user e.g. in case the user has forgotten a password it can be reset in the firebase. 
 
 
 **User story**
+
 The user should be able to register as a user in order to use the app.  
 
 The user should be able to login and use the app. 
 
 The user should be able to see main activity with the opportunity to see what day the brewing progeess is. 
 
+The user should be able to see individueal day (mondag, tuesday, etc.) 
+
 The user should be able to create and see a note.
+
+The user should be able to see the note they have created. 
 
 The user should be able to watch a youtube video of beer brewing. 
 
+The user should be able to logout. 
+
 
 **My video of app**
+
 https://youtu.be/u0YdvjasAPc
 
 
